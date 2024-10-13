@@ -1,0 +1,28 @@
+{
+  "name": "jsonld-schema-generator",
+  "version": "1.0.0",
+  "description": "A Node.js CLI tool to generate JSON-LD schemas for websites.",
+  "main": "index.mjs",
+  "bin": {
+    "jsonld-schema-generator": "./index.mjs"
+  },
+  "scripts": {
+    "start": "node index.mjs"
+  },
+  "type": "module",
+  "dependencies": {
+    "ajv": "^8.17.1",
+    "axios": "^1.4.0",
+    "cheerio": "^1.0.0-rc.12",
+    "commander": "^11.0.0",
+    "compromise": "^14.5.3",
+    "fs-extra": "^11.1.1",
+    "inquirer": "^9.3.7",
+    "p-limit": "^4.0.0",
+    "robots-parser": "^1.0.0",
+    "winston": "^3.10.0",
+    "xml2js": "^0.4.23"
+  },
+  "author": "Your Name",
+  "license": "MIT"
+}
